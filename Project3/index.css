@@ -1,0 +1,475 @@
+body{
+    width: 100%;
+}
+.sp1
+{
+   font-size: 35px;
+   position:absolute;
+   color: grey;
+   font-family:'Courier New', Courier, monospace;
+   padding-left: 290px;
+   padding-top: 120px;
+}
+
+.h1
+{
+    font-size: 40px;
+    position: absolute;
+    font-weight: bolder;
+    padding-left: 190px;
+    padding-top: 110px;
+    font-weight: 100;
+}
+
+.add
+{
+     font-size: 28px ;
+     position: absolute;
+     color:grey;
+     padding-top: 120px;
+     padding-left: 800px;
+}
+
+.material-symbols-outlined
+{
+    position:absolute;
+    padding-left: 760px;
+    padding-top:120px;
+    color: orangered;
+    cursor: pointer;
+    font-size: 30px !important;
+    font-variation-settings: 
+    'FILL' 1,
+    'wght' 800,
+    'GRAD' 85,
+    'opsz' 58; 
+   
+
+}
+.flex-container
+{
+   height:500px;
+   width:70vw;
+   background-color:white;
+   display:flex;
+   position: relative;
+   top:25vh;
+   left:10rem;
+   justify-content:space-between;
+
+}
+
+
+.task1
+{
+   height:250px;
+   width:160px;
+   background-color: white;
+   border: 2px solid orangered;
+   border-radius: 10px;
+   position: absolute;
+   left: 5vw;
+   top: 5vh;
+   box-shadow: 5px 10px #888888;
+
+}
+
+.textparis
+{
+    font-size: 20px;
+    color: orangered;
+    padding-top: 10px;
+    padding-left: 22px;
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+   
+}
+
+
+.t1
+{
+    font-size: 20px;
+    color: orangered;
+    text-decoration: line-through;
+    position: absolute;
+    top:70px;
+    left: 25px;
+}
+
+.chbx
+{
+    position: absolute;
+    top:150px;
+    width: 25px;
+    height: 18px;
+}
+
+.t1txt
+{
+    position: absolute;
+    top:150px;
+    left:30px;
+    font-size: 20px;
+}
+
+.todo3
+{
+   height:250px;
+   width:160px;
+   background-color: white;
+   border: 2px solid orangered;
+   border-radius: 10px;
+   position: absolute;
+   left: 570px;
+   top: 5vh;
+   box-shadow: 5px 10px #888888;
+}
+@media (min-width:360px)and (max-width:450px)
+
+{
+    .t1 , .chbx , .t1txt , hr
+    {
+    display: none;
+    }
+
+    .textparis
+    {
+        text-align: center;
+        position: absolute;
+        left:0;
+
+    }
+    .task1 , .todo2 , .todo3
+    {
+        height: 50px;
+        width:150px;
+        text-align: center;
+        box-shadow: 4px 4px 10px gray;
+    }
+
+    div.todo1
+    {
+        height: 50px;
+        width:150px;
+        position: absolute;
+        top:15vh;
+        left:15px;
+    }
+
+    div.todo2
+    {
+        height: 50px;
+        width:150px;
+        position: absolute;
+        top:26vh;
+        left:15px;
+    }
+
+    div.todo3
+    {
+        height: 50px;
+        width:150px;
+        position: absolute;
+        top:37vh;
+        left:15px;
+    }
+
+
+    div.material-symbols-outlined
+   {
+    position:absolute;
+    left:-75vw;
+    top:1vh;
+    padding-left: 760px;
+    padding-top:120px;
+    color: orangered;
+    cursor: pointer;
+    font-size: 30px !important;
+    font-variation-settings: 
+    'FILL' 1,
+    'wght' 800,
+    'GRAD' 85,
+    'opsz' 58; 
+   
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+/* index 2 */
+.newlist
+{
+    width: 350px;
+    height:170px;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    position:absolute;
+    left:580px;
+    top:40vh;
+    filter: none;
+    background-color: rgba(255, 255, 255, 0.933);
+}
+
+.addnewlist
+{
+    color: orangered;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top:14px;
+    left:90px;
+    filter: none;
+    opacity: none;
+}
+
+.addbtn
+{  
+   background-color: orangered;
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   font-size: 16px;
+   border-radius: 25px;
+   margin-top: 100px;
+   margin-left: 125px;
+   cursor: pointer;
+  
+}
+
+.todo1
+{
+   height:250px;
+   width:160px;
+   background-color: white;
+   text-decoration: overlines;
+   border: 2px solid orangered;
+   border-radius: 10px;
+   position: absolute;
+   left: 20rem;
+   top: 5vh;
+   box-shadow: 5px 10px #888888;
+   justify-items: space-between;
+
+}
+
+.todo2
+{
+   height:250px;
+   width:160px;
+   background-color: white;
+   border: 2px solid orangered;
+   border-radius: 10px;
+   position: absolute;
+   right:100px;
+   top: 5vh;
+   box-shadow: 5px 10px #888888;
+
+}
+
+.addnewblr
+{
+    filter: blur(3px);
+}
+
+@media (min-width:360px)and (max-width:450px) 
+
+
+{
+    .addbtn
+    {
+        position: absolute;
+          left: -15vw;
+    }
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+/* index3 */
+h1 {
+    font-family: sans-serif;
+    margin: 100px auto;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    max-width: 600px;
+    position: relative;
+  }
+
+  h1:before {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: orangered;
+    left: 0rem;
+    top: 50%;
+    position: absolute;
+  }
+  
+  h1:after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: orangered;
+    right: 0;
+    top: 50%;
+    position: absolute;
+  
+}
+.Back
+{
+    color: gray;
+    font-size: 27px;
+    font-weight: bolder;
+    position: absolute;
+    top:25vh;
+    left:95vh;
+    cursor: pointer;
+}
+
+.h3
+{
+    position: absolute;
+    top:30vh;
+    left:85vh;
+
+}
+
+@media (min-width:360px)and (max-width:450px) {
+
+    h1::before , h1::after , .Back
+    
+    {
+        display: none;
+    }
+    
+    h1 
+    {
+
+        text-align: center;
+    }
+
+    span.material-symbols-outlined
+    {
+           position: absolute;
+           left:-85vh;
+    }
+
+    .h3
+     {
+        position: absolute;
+        top:30vh;
+        left:10vh;
+    }
+     
+    .task2
+    {
+        height:250px;
+        width:160px;
+        background-color: white;
+        border: 2px solid orangered;
+        border-radius: 10px;
+        position: absolute;
+        left: 40px;
+        top: 5vh;
+         box-shadow: 5px 10px #888888;
+         display: inline;
+    }
+
+    .textparis
+    {
+        font-size: 20px;
+        color: orangered;
+        padding-top: 10px;
+        padding-left: 22px;
+        text-decoration: none;
+        text-align: center;
+        position: absolute;
+       
+    }
+    
+    
+    div.t2
+    {
+        font-size: 20px;
+        color: orangered;
+        text-decoration: line-through;
+        position: absolute;
+        top:70px;
+        left: 25px;
+    }
+    
+    .bx1
+    {
+        position: absolute;
+        top:150px;
+        left: 0;
+        width: 25px;
+        height: 18px;
+    }
+    
+    .t
+    {
+        position: absolute;
+        top:150px;
+        left:30px;
+        font-size: 20px;
+    }
+
+
+    
+    .line{
+        height:2px;
+        width:8.5rem;
+        color:grey;
+        background-color:gray"
+    }
+
+
+
+    }
+/* index 4 */
+
+.newblur
+{
+    
+    filter: blur(5px);
+}
+
+@media (min-width:360px)and (max-width:450px) {
+
+div.newlist 
+{
+    position: absolute;
+    left:20vw;
+    width:250px;
+}
+div.addnewlist
+{
+
+    
+    position: absolute;
+    left:30px;
+}
+}
